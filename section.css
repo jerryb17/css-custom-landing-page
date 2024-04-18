@@ -1,0 +1,77 @@
+.section {
+  padding: 3rem;
+  margin: 0;
+}
+.section-title {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+.curriculum-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, 450px));
+  justify-content: center;
+  column-gap: 20px;
+}
+.curriculum-grid-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+.curriculum-grid-item > img {
+  width: 40px;
+  margin-right: 1rem;
+}
+.section-accent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: hsl(200, 83%, 48%);
+  margin: 0;
+  padding: 0;
+  color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.free {
+  margin: 0;
+  font-size: 2.5rem;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.free-sub-title {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  max-width: 300px;
+}
+.sub-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.form {
+  margin: 0;
+}
+.form > label {
+  font-size: 1.5rem;
+}
+.form > input,
+.form > textarea {
+  width: 100%;
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 10000px;
+  padding: 0.5em;
+}
+.btn-send {
+  padding: 0.75rem 1.75rem;
+}

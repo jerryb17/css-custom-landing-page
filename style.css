@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.header {
+  color: white;
+  position: relative;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/header_image.jpg);
+  background-size: cover;
+  background-position-x: 40%;
+  background-position-y: center;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: #1b2522;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em;
+}
+.nav-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+  padding: 0.3rem 1rem;
+}
+.nav-list a:hover {
+  color: #ccc;
+}
+.logo {
+  width: 50px;
+}
+.title {
+  font-size: 3rem;
+  margin: 0;
+}
+.sub-title {
+  font-size: 1.2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+.btn {
+  border-radius: 10000px;
+  background-color: hsl(200, 100%, 50%);
+  cursor: pointer;
+  padding: 0.25em 1em;
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+.btn:hover,
+.btn:focus {
+  background-color: hsl(200, 100%, 40%);
+}
+.scroll-arrow {
+  position: absolute;
+  bottom: 1rem;
+  width: 30px;
+}
